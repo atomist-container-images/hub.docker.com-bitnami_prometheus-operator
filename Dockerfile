@@ -102,6 +102,3 @@ FROM bitnami/prometheus-operator:0.54.1-debian-10-r5
 
 # Tags: 0.54.1-debian-10-r4
 FROM bitnami/prometheus-operator:0.54.1-debian-10-r4
-
-# Tags: 0.54.1-debian-10-r3
-FROM bitnami/prometheus-operator:0.54.1-debian-10-r3
