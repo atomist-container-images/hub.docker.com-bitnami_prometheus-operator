@@ -89,6 +89,3 @@ FROM bitnami/prometheus-operator:0.55.1-debian-10-r9
 
 # Tags: 0.55.1-debian-10-r8
 FROM bitnami/prometheus-operator:0.55.1-debian-10-r8
-
-# Tags: 0.55.1-debian-10-r7
-FROM bitnami/prometheus-operator:0.55.1-debian-10-r7
