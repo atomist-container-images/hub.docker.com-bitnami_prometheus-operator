@@ -1,12 +1,44 @@
-# Tags: latest, 0.56.0-debian-10-r8, 0.56.0, 0-debian-10, 0
+# Tags: latest, 0.56.2-debian-10-r3, 0.56.2, 0-debian-10, 0
 FROM bitnami/prometheus-operator:latest
-FROM bitnami/prometheus-operator:0.56.0-debian-10-r8
-FROM bitnami/prometheus-operator:0.56.0
+FROM bitnami/prometheus-operator:0.56.2-debian-10-r3
+FROM bitnami/prometheus-operator:0.56.2
 FROM bitnami/prometheus-operator:0-debian-10
 FROM bitnami/prometheus-operator:0
 
 # Tags: _
 FROM bitnami/prometheus-operator:_
+
+# Tags: 0.56.2-debian-10-r2
+FROM bitnami/prometheus-operator:0.56.2-debian-10-r2
+
+# Tags: 0.56.2-debian-10-r1
+FROM bitnami/prometheus-operator:0.56.2-debian-10-r1
+
+# Tags: 0.56.2-debian-10-r0
+FROM bitnami/prometheus-operator:0.56.2-debian-10-r0
+
+# Tags: 0.56.1-debian-10-r4, 0.56.1
+FROM bitnami/prometheus-operator:0.56.1-debian-10-r4
+FROM bitnami/prometheus-operator:0.56.1
+
+# Tags: 0.56.1-debian-10-r3
+FROM bitnami/prometheus-operator:0.56.1-debian-10-r3
+
+# Tags: 0.56.1-debian-10-r2
+FROM bitnami/prometheus-operator:0.56.1-debian-10-r2
+
+# Tags: 0.56.1-debian-10-r1
+FROM bitnami/prometheus-operator:0.56.1-debian-10-r1
+
+# Tags: 0.56.1-debian-10-r0
+FROM bitnami/prometheus-operator:0.56.1-debian-10-r0
+
+# Tags: 0.56.0-debian-10-r9, 0.56.0
+FROM bitnami/prometheus-operator:0.56.0-debian-10-r9
+FROM bitnami/prometheus-operator:0.56.0
+
+# Tags: 0.56.0-debian-10-r8
+FROM bitnami/prometheus-operator:0.56.0-debian-10-r8
 
 # Tags: 0.56.0-debian-10-r7
 FROM bitnami/prometheus-operator:0.56.0-debian-10-r7
@@ -65,27 +97,3 @@ FROM bitnami/prometheus-operator:0.55.1-debian-10-r17
 
 # Tags: 0.55.1-debian-10-r16
 FROM bitnami/prometheus-operator:0.55.1-debian-10-r16
-
-# Tags: 0.55.1-debian-10-r15
-FROM bitnami/prometheus-operator:0.55.1-debian-10-r15
-
-# Tags: 0.55.1-debian-10-r14
-FROM bitnami/prometheus-operator:0.55.1-debian-10-r14
-
-# Tags: 0.55.1-debian-10-r13
-FROM bitnami/prometheus-operator:0.55.1-debian-10-r13
-
-# Tags: 0.55.1-debian-10-r12
-FROM bitnami/prometheus-operator:0.55.1-debian-10-r12
-
-# Tags: 0.55.1-debian-10-r11
-FROM bitnami/prometheus-operator:0.55.1-debian-10-r11
-
-# Tags: 0.55.1-debian-10-r10
-FROM bitnami/prometheus-operator:0.55.1-debian-10-r10
-
-# Tags: 0.55.1-debian-10-r9
-FROM bitnami/prometheus-operator:0.55.1-debian-10-r9
-
-# Tags: 0.55.1-debian-10-r8
-FROM bitnami/prometheus-operator:0.55.1-debian-10-r8
